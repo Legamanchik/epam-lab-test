@@ -21,4 +21,4 @@ jobs:
         aws-region: us-west-1
 
     - name: Sync files to S3
-      run: aws s3 sync . s3://YOUR_BUCKET_NAME --exclude ".git/*" --exclude ".github/*"
+      run: aws s3 sync . s3://epam-test-lab --exclude ".git/*" --exclude ".github/*"
